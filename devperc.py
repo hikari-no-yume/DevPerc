@@ -36,6 +36,11 @@ def parse_expr(expr):
                 return wrap(o1 // o2)
             else:
                 error("Division by zero")
+        elif expr[1] == "MODULO":
+            if o2 != 0:
+                return wrap(o1 % o2)
+            else:
+                error("Division by zero")
         elif expr[1] == "EQUALS":
             return bool_to_int(o1 == o2)
         elif expr[1] == "GREATERTHAN":
