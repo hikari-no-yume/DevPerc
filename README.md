@@ -2,7 +2,8 @@ An interpreter for the Deviating Percolator (DevPerc) language
 
 http://www.esolangs.org/wiki/Deviating_Percolator
 
-==License==
+License
+=======
     Copyright (c) 2011 Andrew Faulds
 
     This software is provided 'as-is', without any express or implied
