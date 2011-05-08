@@ -1,35 +1,7 @@
 import sys
 from random import randint
 from array import array
-
-numbers = {} # FIXME: INCOMPLETE LIST
-numbers["ZERO"] = 0
-numbers["ONE"] = 1
-numbers["TWO"] = 2
-numbers["THREE"] = 3
-numbers["FOUR"] = 4
-numbers["FIVE"] = 5
-numbers["SIX"] = 6
-numbers["SEVEN"] = 7
-numbers["EIGHT"] = 8
-numbers["NINE"] = 9
-numbers["TEN"] = 10
-numbers["ELEVEN"] = 11
-numbers["TWELVE"] = 12
-numbers["THIRTEEN"] = 13
-numbers["FOURTEEN"] = 14
-numbers["FIFTEEN"] = 15
-numbers["SIXTEEN"] = 16
-numbers["SEVENTEEN"] = 17
-numbers["EIGHTEEN"] = 18
-numbers["NINETEEN"] = 19
-numbers["TWENTY"] = 20
-numbers["TWENTYSEVEN"] = 27
-numbers["THIRTYTWO"] = 32
-numbers["THIRTYTHREE"] = 33
-numbers["FORTYSEVEN"] = 47
-numbers["SIXTYFIVE"] = 65
-numbers["SEVENTYSEVEN"] = 77
+from numbers import numbers
 
 def wrap(num):
     while num > 255:
