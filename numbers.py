@@ -44,6 +44,7 @@ def makenumbers():
     for k, v in teens.iteritems():
         prehundred[k] = v
     for k, v in tens.iteritems():
+        prehundred[k] = v
         for ki, vi in digits.iteritems():
             prehundred[k+ki] = v+vi
 
@@ -51,8 +52,9 @@ def makenumbers():
     for k, v in prehundred.iteritems():
         numbers[k] = v
     for k, v in hundreds.iteritems():
+        numbers[k] = v
         for ki, vi in prehundred.iteritems():
-            if v == 200 and vi <= 55:
+            if not (v == 200 and vi > 55):
                 numbers[k+"AND"+ki] = v+vi
 
     numbers["ZERO"] = 0
