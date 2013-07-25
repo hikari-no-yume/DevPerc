@@ -1,0 +1,17 @@
+PUT C
+PUT O
+PUT U
+PUT N
+PUT T
+PUT D
+PUT O
+PUT W
+PUT N
+PUT THIRTYTHREE/ exclamation mark
+PUT TEN/ newline
+DEFINE Q TO B/ Redefines Q to B
+DEFINE SIXTYSIX TO NINE/ Redefines B to 9
+PUT FORTYEIGHT PLUS Q/ 48 + B (48 is ASCII for 0, converts B value to ASCII digit)
+PUT TEN/ newline
+DEFINE SIXTYSIX TO Q MINUS ONE/ Redefines B to B - 1 (i.e. B--)
+IF Q GREATERTHAN ZERO PROCEEDTO THIRTEEN/ If B non-zero, loop
