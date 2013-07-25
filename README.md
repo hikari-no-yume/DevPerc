@@ -4,7 +4,7 @@ http://www.esolangs.org/wiki/Deviating_Percolator
 
 License
 =======
-    Copyright (c) 2011 Andrew Faulds
+    Copyright (c) 2011-2013 Andrea Faulds
 
     Permission is hereby granted, free of charge, to any person obtaining a copy
     of this software and associated documentation files (the "Software"), to deal
